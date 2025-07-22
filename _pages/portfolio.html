@@ -1,0 +1,42 @@
+---
+layout: archive
+title: "Portfolio"
+permalink: /portfolio/
+author_profile: true
+---
+
+{% include base_path %}
+
+## Research Projects
+
+Here are some of my key research projects and contributions:
+
+### SynLogic Framework
+- **Description**: A comprehensive framework for synthesizing verifiable reasoning data at scale
+- **Technologies**: Python, PyTorch, Transformers
+- **Impact**: Improves logical reasoning capabilities in large language models
+- **Code**: [GitHub Repository](https://github.com/Vicent0205/SynLogic)
+
+### Vision4Chart
+- **Description**: Investigation of perception bottlenecks in Vision-Language Models for chart understanding
+- **Technologies**: Python, PyTorch, Computer Vision
+- **Impact**: Advances VLM capabilities for chart comprehension
+- **Code**: [GitHub Repository](https://github.com/Vicent0205/Vision4Chart)
+
+### Universal Truthfulness Hyperplane
+- **Description**: Research on truthfulness mechanisms inside large language models
+- **Technologies**: Python, PyTorch, Deep Learning
+- **Impact**: Improves truthfulness in LLM outputs
+- **Code**: [GitHub Repository](https://github.com/Vicent0205/Universal_Truthfulness_Hyperplane)
+
+## Technical Skills
+
+- **Programming Languages**: Python, C++, Java, JavaScript
+- **Machine Learning**: PyTorch, TensorFlow, Hugging Face Transformers
+- **NLP Tools**: spaCy, NLTK, OpenAI API
+- **Development**: Git, Docker, Linux, AWS
+- **Research**: Experimental design, Statistical analysis, Academic writing
+
+{% for post in site.portfolio %}
+  {% include archive-single.html %}
+{% endfor %}
