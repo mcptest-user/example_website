@@ -1,0 +1,1 @@
+---\n# Only the main Sass file needs front matter (the dashes are enough)\n---\n\n@charset \"utf-8\";\n\n@import \"minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}\";\n@import \"minimal-mistakes\";
