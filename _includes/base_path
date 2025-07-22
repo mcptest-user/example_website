@@ -1,0 +1,2 @@
+{% assign base_path = site.url | append: site.baseurl %}
+{% assign home_path = '/' | relative_url %}
