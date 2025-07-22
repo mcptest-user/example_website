@@ -1,0 +1,21 @@
+{% assign title = post.title | default: post.excerpt | strip_html | truncate: 40 %}
+
+{% if post.link %}
+  <h2 class="archive__item-title" itemprop="headline">
+    <a href="{{ post.link }}" rel="permalink">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+  </h2>
+{% else %}
+  <h2 class="archive__item-title" itemprop="headline">
+    {% if post.url %}
+      <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
+    {% else %}
+      {{ title }}
+    {% endif %}
+  </h2>
+{% endif %}
+
+{% if post.read_time %}
+  <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
+{% endif %}
+
+{% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
