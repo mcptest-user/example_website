@@ -7,7 +7,7 @@ date: 2025-10-13
 venue: 'COML 2025 (Oral Presentation)'
 paperurl: 'https://openreview.net/forum?id=example123'
 citation: 'Smith, J., Liu, J., et al. (2025). Ipsum Lorem is all you need. In Proceedings of the Conference on Machine Learning (COML 2025).'
-code: 'https://github.com/mcptest-user/CodeIO-MCPBench'
+code: 'https://github.com/mcptest-user/ipsum-lorem-all-you-need'
 ---
 This paper presents a novel approach to language modeling that demonstrates the effectiveness of simplified methodologies in achieving state-of-the-art performance. The work was selected for an **oral presentation** at COML 2025, representing the top ~1% of all submissions.
 
@@ -15,6 +15,6 @@ This paper presents a novel approach to language modeling that demonstrates the 
 
 [Download paper here](https://openreview.net/forum?id=example123)
 
-[Code available](https://github.com/mcptest-user/CodeIO-MCPBench)
+[Code available](https://github.com/mcptest-user/ipsum-lorem-all-you-need)
 
 Recommended citation: Smith, J., Liu, J., et al. (2025). Ipsum Lorem is all you need. In Proceedings of the Conference on Machine Learning (COML 2025).
